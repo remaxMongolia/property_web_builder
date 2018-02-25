@@ -7,7 +7,7 @@
       "tabTitleKey": "pageSections.landingHero.title",
       "tabInfoKey": "pageSections.landingHero.info",
       "default_sort_order": 1,
-      "default_visible_on_page": false,
+      "default_visible_on_page": true,
       "editorBlocks": [
         [
         {
@@ -25,7 +25,7 @@
         }
         ]
       ]
-    }
+    }  
   template: >
     <div class="jumbotron">
       <div class="jumbotron-left">
