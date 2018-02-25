@@ -7,7 +7,7 @@
       "tabTitleKey": "pageSections.services.title",
       "tabInfoKey": "pageSections.services.info",
       "default_sort_order": 3,
-      "default_visible_on_page": true,
+      "default_visible_on_page": false,
       "editorBlocks": [
         [
         {
@@ -49,8 +49,8 @@
           "isMultipleLineText": "true"
         }]
       ]
-    }  
-  template: 
+    }
+  template:
     <section class="light-gray bb">
       <div class="wp-section services-section">
         <div class="bst-container">
