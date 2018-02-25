@@ -213,6 +213,10 @@
     "labelTextTKey": "mad"
   },
   {
+    "value": "MNT",
+    "labelTextTKey": "mnt"
+  },
+  {
     "value": "MXN",
     "labelTextTKey": "mxn"
   },
