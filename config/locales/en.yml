@@ -1,7 +1,7 @@
 ---
 en:
-  aboutUs: About Us
-  address: Address
+  aboutUs: Бидний тухай
+  address: Хаяг
   back: Back
   changePassword: Change Password
   contact:
@@ -92,8 +92,8 @@ en:
     price: Price
     propertyType: Property Type
     ref: Ref
-  propertyForRent: Property for rent
-  propertyForSale: Property for sale
+  propertyForRent: Түрээслэх
+  propertyForSale: Худалдах
   propertyNotFound: Property not found
   pwb:
     copyright: "%{company_name} Inc. All rights reserved."
