@@ -2,31 +2,31 @@
 en:
   aboutUs: Бидний тухай
   address: Хаяг
-  back: Back
+  back: Буцах
   changePassword: Change Password
   contact:
     emailSubject: Contact from your website
-    error: Sorry, there has been an error.
-    success: Thank you for your message. We will contact you soon!
-  contactUs: Contact
-  contactUsPrompt: Fill in the following form to contact us
+    error: Уучлаарай, алдаа гарсан байна.
+    success: Баярлалаа. Бид таньтай удахгүй холбогдох болно!
+  contactUs: Холбогдох
+  contactUsPrompt: Холбоо барих хүсэлтийг бөглөнө үү.
   devise:
     user_update_success: You have successfully updated your account.
     user_update_success_title: Congratulations
   editarPropiedad: Edit a property
-  email: Email
+  email: И-мэйл
   'false': 'No'
-  findAProperty: Find a property
-  findByReference: Find by reference
-  forRent: For Rent
-  forSale: For Sale
+  findAProperty: Үл хөдлөх хайх
+  findByReference: Дугаараар хайх
+  forRent: Түрээслэх
+  forSale: Худалдах
   go: Go
   labels:
     create: Create
     edit: Edit
-    latestProperties: Latest properties
-    new: New
-    ourServices: Our services
+    latestProperties: Шинээр нэмэгдсэн
+    new: Шинэ
+    ourServices: Манай үйлчилгээ
     save: Save
   leaveBlank: leave it blank if you don't want to change it
   legalAdvice: Legal Notice
@@ -39,7 +39,7 @@ en:
     general_enquiry_targeting_enquirer:
       message_title: ''
       subject: ''
-    message: Message
+    message: Агуулга
     phone: Tel
     property: Property
     property_enquiry_targeting_agency:
@@ -48,17 +48,17 @@ en:
     welcome: Welcome
   menu_admin: admin
   message: Message
-  name: Name
+  name: Нэр
   navbar:
-    about-us: About Us
+    about-us: Бидний тухай
     admin: Admin
-    buy: Properties to buy
-    contact-us: Contact
-    home: Home
+    buy: Худалдан авах
+    contact-us: Холбогдох
+    home: Гэр
     legal: Legal Notice
     privacy: Privacy Policy
-    rent: Properties to rent
-    sell: Sell
+    rent: Түрээслэх
+    sell: Худалдах
   needCurrentPwd: we need your current password to confirm your changes
   newPassword: New Password
   noResultsForSearch: Sorry, no results found
@@ -67,31 +67,31 @@ en:
     priceAscending: "↓ Price (ascending)"
     priceDescending: "↑ Price (descending)"
   pages:
-    aboutUs: About us
-    sell: Sell
+    aboutUs: Бидний тухай
+    sell: Худалдах
   placeHolders:
-    email: Your email
-    message: Write your message here
-    name: Your name
-    subject: Subject
-    tel: Fixed or mobile
+    email: Мэйл хаяг
+    message: Хүсэлтийн агуулга
+    name: Нэр
+    subject: Тодруулах зүйл
+    tel: Утас
   # privacyPolicy: Privacy Policy
   property:
-    description: Description
-    details: Details
-    extras: Features
-    furniture: Furniture
-    goToProperty: View Property
-    highlightedProperty: Outstanding Property
+    description: Тайлбар
+    details: Дэлгэрэнгүй
+    extras: Онцлог
+    furniture: Тавилга
+    goToProperty: Үл хөдлөх үзэх
+    highlightedProperty: Онцгойлох
     locality: Locality
-    map: Map
+    map: Газрын зураг
     monthlyRentalPriceHighSeason: Monthly Price (High Season)
     monthlyRentalPriceLowSeason: Monthly Price (Low Season)
     monthlyRentalPriceStandardSeason: Monthly Price (Standard Season)
-    operationType: Operation Type
-    price: Price
-    propertyType: Property Type
-    ref: Ref
+    operationType: Арилжааны төрөл
+    price: Үнэ
+    propertyType: Үл хөдлөхийн төрөл
+    ref: Код
   propertyForRent: Түрээслэх
   propertyForSale: Худалдах
   propertyNotFound: Property not found
@@ -104,14 +104,14 @@ en:
     tagLine: Professional websites for estate agents in minutes
     tagLineExt: Beautiful websites that have to be seen to be believed.<br>No one
       gets you online quicker.
-  requestPropertyInfo: Request info
-  search: Search
-  searchForProperties: Search for properties
+  requestPropertyInfo: Мэдээлэл авах
+  search: Хайх
+  searchForProperties: Үл хөдлөх хайх
   selectpicker:
     countSelectedText: Selected {0} of {1}
     noneResultsText: No results found {0}
     noneSelectedText: Nothing selected
-  send: Send
+  send: Илгээх
   setup:
     claimSubdomain: Claim this url
     createdSuccessfully: Site created successfully
@@ -149,12 +149,12 @@ en:
       text: required
     'yes': 'Yes'
   subject: Subject
-  tel: Telephone
+  tel: Утасны дугаар
   'true': 'Yes'
   update: Update
   webContentSections:
     aboutUs: About us
-    contactInformation: Contact information
-    home: Home
-    sell: Sell
+    contactInformation: Холбоо барих мэдээлэл
+    home: Гэр
+    sell: Худалдах
     tagLine: Tag Line

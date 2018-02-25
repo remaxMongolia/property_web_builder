@@ -3,7 +3,7 @@ en:
     "true": "true"
     "false": "false"
     "yes": "yes"
-    "no": "no" 
+    "no": "no"
     es-ES: Spain
     es-CL: Chile
     es-MX: Mexico
@@ -73,6 +73,7 @@ en:
     thb: Thai Baht
     mad: Moroccan Dirham
     egp: Egyptian Pound
+    mnt: Монгол Төгрөг
     pages:
       aboutUs: About us
       sell: Sell
@@ -81,32 +82,32 @@ en:
     pageSections:
       notEditable:
         This section cannot be edited
-      homeSearchComponent: 
+      homeSearchComponent:
         title: Search bar
         info: Enable property search on the home page
-      contactUsFormAndMap: 
+      contactUsFormAndMap:
         title: Form and Map
         info: Contact us form and map
       pageTitle: Page title
-      services: 
+      services:
         title: Services you offer
         info: An overview of the services you offer
-      people: 
+      people:
         title: Your team
         info: Summary info about your team
-      # landingCarousel: 
+      # landingCarousel:
       #   title: Home page carousel
       #   info: Main section displaying images and text
-      rawHtml: 
+      rawHtml:
         title: HTML Content
         info: You can add extra HTML here
-      topRentals: 
+      topRentals:
         title: Top Rentals
         info: Summary list of properties to rent
-      topSales: 
+      topSales:
         title: Top Sales
         info: Summary list of properties for sale
-      contactUsForm: 
+      contactUsForm:
         title: Contact us form
         info: Form to allow visitors to send you a message
       # aboutUs:
@@ -177,7 +178,7 @@ en:
       recLogoPhotoSize: Recommended size for logo is 120px X 80px,
       orderByDragging: Drag and drop to order - first photo will be main photo.
 
-    webContentLabels: 
+    webContentLabels:
       suffixEn: in English
       suffixEs: in Spanish
       suffixAr: in Arabic
@@ -205,7 +206,7 @@ en:
       aboutUs: About us
       footerInfo: Extra footer content
 
-    siteSections: 
+    siteSections:
       aboutUs: About us
       contactUs: Contact
       buy: Buy
@@ -222,7 +223,7 @@ en:
       appearance: Appearance
       footer: Footer
       aboutUs: About us
-      contactInformation: Contact information 
+      contactInformation: Contact information
       sell: Sell
       # tagLine: Tag Line
       legal: Legal
@@ -235,7 +236,7 @@ en:
         contentAreaCols: Columns on the landing page giving an overview of the services
           you provide
 
-    fieldLabels: 
+    fieldLabels:
     #   yaencontre: Yaencontre
     #   pisoscom: Pisoscom
     #   idealista: Idealista
@@ -354,7 +355,7 @@ en:
 
     editWebsite: Edit Website
     settingsForWebsite: Settings for Website
-    contentForWebsite: Content for Website 
+    contentForWebsite: Content for Website
     sectionsForWebsite: Website Sections
     themesForWebsite: Website Themes
     importExport: Import and export data
@@ -368,26 +369,26 @@ en:
     propertiesList: Properties list
     clientsList: Clients list
 
-    prompts: 
+    prompts:
       fixErrors: Please correct the errors below
 
-    todos: 
+    todos:
       createContent: Create some content
       companyDetails: Set up your company details
 
-    locationTab: 
+    locationTab:
       confirmAddress: Confirm new location
 
-    agencySections: 
+    agencySections:
       general: Agency Details
       location: Location
       user: User Details
 
-    siteLayout: 
+    siteLayout:
       wide: Wide
       boxed: Boxed
 
-    propertySections: 
+    propertySections:
       general: General
       location: Location
       text: Text
@@ -396,7 +397,7 @@ en:
       sale: Sale / Rental
       owner: Owner
 
-    propertyGeneralSections: 
+    propertyGeneralSections:
       sale: Sale
       longtermRental: Long term rental
       seasonalRental: Seasonal rental
@@ -406,7 +407,7 @@ en:
       portals: Web Portals
       extras: Features
 
-    translationsSections: 
+    translationsSections:
       extras: Features
       propertyTypes: Property Types
       propertyOrigins: Property Origins
@@ -414,7 +415,7 @@ en:
       propertyLabels: Property Labels
       provinces: Provinces
 
-    toolTips: 
+    toolTips:
       forSale: Select if property is available for sale
       priceSaleCurrent: Current selling price
       saleDiscount: saleDiscount
@@ -429,7 +430,7 @@ en:
       seasonalRental: Select 'Yes' if property is rentened seasonaly
       ref: Reference number for property
 
-    alerts: 
+    alerts:
       changesDetected: You have unsaved changes.
       deletingProperty: Are you sure you want to delete this property.  This action cannot be undone.
       navigatingFromChanges: You have unsaved changes. Please save or cancel your changes.
@@ -437,20 +438,20 @@ en:
       hiddenProperties: These properties will not be shown on your website
       clickMapToUpdate: Click on map to select address or type directly below.
 
-    datatables: 
+    datatables:
       sInfo: Showing items from _START_ al _END_ from a total of _TOTAL_ properties
       sInfoEmpty: Showing items from 0 al 0 from a total of 0 properties
       sInfoPostFix: ""
       sSearch: Search
       sUrl: ""
       sInfoThousands: ","
-      oPaginate: 
+      oPaginate:
         sFirst: "<<"
         sLast: ">>"
         sNext: ">"
         sPrevious: "<"
 
-    alert: 
+    alert:
       deleteItem: Are you sure you want to delete this item?
       deleteButton: Yes, delete it!
 
@@ -466,14 +467,14 @@ en:
 
     properties: Properties
 
-    cards: 
+    cards:
       website: Website
       websitePrompt: Website actions
       websiteLink: Go to web control panel
       properties: Properties
       propertiesPrompt: Property actions
       propertiesLink: Go to properties
-    tasks: 
+    tasks:
       addProperty: Add a property
       addPropertyPrompt: properties / Add property
       manageProperties: Manage properties
@@ -488,7 +489,7 @@ en:
       managePropertyTypes: Manage property types
       managePropertyExtras: Manage property features
 
-    buttonLabels: 
+    buttonLabels:
       configureAvailableExtras: Configure available features
       selectImagesToAdd: Select images to add
       selectRemoteImages: Add images from urls
@@ -519,5 +520,3 @@ en:
       even: must be even
       tooShortVjs: is too short
       notAUrlVjs: is not a valid URL
-
-
