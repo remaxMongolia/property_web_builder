@@ -1,11 +1,11 @@
 ---
-- email: admin@example.com
-  password: pwb123456
+- email: tsengel2@gmail.com
+  password: Pepsi2018
   admin: true
-  first_names: Admin
-  last_names: Example
-  skype: ae_skype
-  phone_number_primary: 789 101
+  first_names: Tsengel
+  last_names: E
+  skype:
+  phone_number_primary:
 - email: non_admin@example.com
   password: pwb123456
   admin: false
@@ -13,5 +13,3 @@
   last_names: Example
   skype: na_skype
   phone_number_primary: 123 456
-
-

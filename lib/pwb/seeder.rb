@@ -8,6 +8,8 @@ module Pwb
 
       def seed!
         I18n.locale = :en
+
+
         # unless ENV["RAILS_ENV"] == "test"
         #   load File.join(Pwb::Engine.root, 'db', 'seeds', 'translations.rb')
         # end
@@ -86,6 +88,8 @@ module Pwb
 
       def seed_links(yml_file)
         links_yml = load_seed_yml yml_file
+        #logger           = ActiveSupport::Logger.new(STDOUT)
+
         links_yml.each do |single_link_yml|
           link_record = Pwb::Link.find_by_slug(single_link_yml['slug'])
           # unless Pwb::Link.where(slug: single_link_yml['slug']).count > 0
@@ -96,12 +100,16 @@ module Pwb
           # below sets the link title text from I18n translations
           # because setting the value in links.yml for each language
           # is not feasible
+
           I18n.available_locales.each do |locale|
             title_accessor = 'link_title_' + locale.to_s
             # if link_title has not been set for this locale
-            next unless link_record.send(title_accessor).blank?
-            # if link is associated with a page
+
+            #logger.debug link_record
+            #next unless link_record.send(title_accessor).blank?
+
             if single_link_yml['page_slug']
+              #logger.debug locale.to_s  + ' >> ' +  single_link_yml['page_slug']
               translation_key = 'navbar.' + single_link_yml['page_slug']
               # get the I18n translation
               title_value = I18n.t(translation_key, locale: locale, default: nil)

@@ -110,6 +110,7 @@
   link_title_pt: Política de Privacidade
   link_title_ru: Политика конфиденциальности
 - slug: top_nav_admin
+  page_slug: admin
   link_path: admin_with_locale_path
   sort_order: 9
   visible: false
@@ -229,6 +230,7 @@
   link_title_pt: Política de Privacidade
   link_title_ru: Политика конфиденциальности
 - slug: footer_admin
+  page_slug: admin
   link_path: admin_with_locale_path
   sort_order: 9
   visible: true
@@ -253,6 +255,7 @@
 #   link_title_fr: Facebook
 #   link_title_de: Facebook
 - slug: social_media_facebook
+  page_slug: facebook
   link_url: "https://www.facebook.com/propertywebbuilder"
   sort_order: 1
   visible: true
@@ -265,6 +268,7 @@
   link_title_fr: Facebook
   link_title_de: Facebook
 - slug: social_media_twitter
+  page_slug: twitter
   link_url: "https://twitter.com/prptywebbuilder"
   sort_order: 1
   visible: true
